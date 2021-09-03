@@ -1,3 +1,4 @@
 .vscode
 Pipfile.lock
 chromedriver.exe
+chromedriver

@@ -9,7 +9,7 @@ def calc(x) -> str:
     return str(math.log(abs(12*math.sin(int(x)))))
 
 try:
-    browser = webdriver.Chrome()
+    browser = webdriver.Chrome("./chromedriver")
     browser.get(url)
     x = browser.find_element_by_id("input_value")
     answer = browser.find_element_by_id("answer")

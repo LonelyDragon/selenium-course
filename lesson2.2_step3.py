@@ -5,7 +5,7 @@ import time
 url = "http://suninjuly.github.io/selects2.html"
 
 try:
-    browser = webdriver.Chrome()
+    browser = webdriver.Chrome('./chromedriver')
     browser.get(url)
     value1 = int(browser.find_element_by_id('num1').text)
     value2 = int(browser.find_element_by_id('num2').text)
