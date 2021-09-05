@@ -1,4 +1,5 @@
 .vscode
+.pytest_cache
 Pipfile.lock
 chromedriver.exe
 chromedriver
