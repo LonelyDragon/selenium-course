@@ -3,3 +3,5 @@
 Pipfile.lock
 chromedriver.exe
 chromedriver
+geckodriver
+geckodriver.log
